@@ -1,9 +1,10 @@
 ```typescript
-type Languages = 'node' & 'js' & 'python' & 'c' 
+type Languages = 'node' & 'js' & 'python' & 'c' & 'html' & 'CSS' & "rust"
 
 type NoviceDev = {
   name: 'brian oduor ogutu' |'biggie'
   languages: Languages
+  school: 'hard rocks' | 'the DOM'
 
 }
 
