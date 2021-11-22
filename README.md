@@ -8,24 +8,9 @@ type NoviceDev = {
 }
 
 ```
-## 1. Github Stats
-![Your repository's Stats]
-(https://github-readme-stats.vercel.app/api?username=b1gg13&show_icons=true)
+![Github Stats](https://github-readme-stats.vercel.app/api?username=b1gg13&count_private=true&show_icons=true&theme=blue-green)
 
-## 2. Used Languages
-![Your repository's Stats]
-(https://github-readme-stats.vercel.app/api?username=b1gg13&theme=blue-green)
 
-## 3. Contributors Badge
-<a href = "https://github.com/b1gg13/b1gg13/graphs/contributors">
-  
-<img src = "https://contrib.rocks/image?repo = b1gg13/b1gg13"/>
-</a>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=B1GG13&show_icons&theme=radical)
 
-Made with [contributors-img](https://contrib.rocks).
 
-## 4. Profile view Counter
-<img src=https://komarev.com/ghpvc/?username = b1gg13/>
-
-### HITS
-![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url = https://github.com/b1gg13/b1gg13)
