@@ -8,9 +8,14 @@ after a bit of challlange. Where hunger never dies, creativity feeds.
 
 ### vision
 
-Build an understanding in the craft I do. have a portfolio worthy of a wow and have the abilty to lead other in this road of development
+Build an understanding in the craft I do. have a portfolio worthy of a wow and have the abilty to lead others in this road of development
 
-### Languages Syntax can use
+```javascript
+let title = "Language Syntax I can use";
+console.log(title);
+//
+```
+### Languages Syntax I can use
 
 * Typescript
 * HTML
