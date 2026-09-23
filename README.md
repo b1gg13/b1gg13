@@ -1,4 +1,4 @@
-# `b1gg13.exe`
+# `b1gg13.deb`
 
 ### `Oduor Brian Ogutu`
 
