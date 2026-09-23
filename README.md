@@ -1,141 +1,428 @@
-# 👋 [b1gg13](https://github.com/b1gg13)
+# `b1gg13.exe`
 
-### Oduor Brian Ogutu
+### `Oduor Brian Ogutu`
 
-> **Build with precision. Learn with purpose. Improve continuously.**
-
----
-
-## Mission
-
-To write code with **precision**, understand what I build, and continuously improve the way I approach software development.
-
-Change comes regularly. So do tweaks, fixes, refactoring, and updates. The goal is always to deliver a better product after every challenge.
-
-**Where hunger never dies, creativity feeds.**
-
----
-
-## Vision
-
-To build a strong understanding of the craft of software development, create a portfolio worthy of a **"wow"**, and eventually have the ability to lead and help others along the same road of development.
-
-I am not only interested in making things work.
-
-I want to understand **why they work, why they break, and how to build them better.**
-
----
-
-## 💻 Languages & Technologies
-
-```javascript
-let title = "Languages & Technologies I Work With";
-
-console.log(title);
+```python
+developer = {
+    "name": "Oduor Brian Ogutu",
+    "alias": "b1gg13",
+    "mission": "Build with precision. Learn what I build.",
+    "status": "always_learning",
+    "coffee": True,
+}
 ```
 
-### Languages
-
-* TypeScript
-* JavaScript
-* Python
-* HTML
-* CSS
-* C
-* SQL
-
-### Currently Exploring
-
-* React
-* Next.js
-* Node.js
-* Flask
-* MongoDB
-* REST APIs
-* Tailwind CSS
-* Git & GitHub
-* Linux
-* Automation
-* Data Structures & Algorithms
-* Rust
+> **Where hunger never dies, creativity feeds.**
 
 ---
 
-## 🚀 Projects in Production
+## `MISSION`
 
-These are projects currently being actively developed, tested, improved, or prepared for real-world use.
+```typescript
+interface Mission {
+    write: "with precision";
+    learn: "with understanding";
+    build: "with purpose";
+    improve: "continuously";
+}
 
-| Project                                   | Description                                                                                         | Stack                            | Status                |
-| ----------------------------------------- | --------------------------------------------------------------------------------------------------- | -------------------------------- | --------------------- |
-| **EKPLUS Business Management System**     | Business operations, sales, employee performance, commissions, bills, payroll and reporting system. | Python, Flask, MongoDB, SQL      | 🟢 In Production      |
-| **EKOMARK Insurance CRM**                 | Client, vehicle, policy, quotation, renewal and insurance-management platform.                      | Python, Flask, MongoDB           | 🟢 In Production      |
-| **Water Delivery Management System**      | Customer management, water deliveries, invoicing, payments and delivery tracking.                   | Python, Flask/Streamlit, MongoDB | 🟢 In Production      |
-| **Property Management System**            | Rental management, tenant records, rent collection, arrears, utilities and reporting.               | Python, Flask, MongoDB           | 🟢 In Production      |
-| **Big Bites Meal Prep**                   | Meal-preparation and food-order management platform for recurring and event-based customers.        | Python, Flask, MongoDB           | 🟢 In Production      |
-| **Merchant Business Management Platform** | Business finance records, statements, tax reporting, procurement and document management.           | Python, Flask, MongoDB, SQL      | 🟡 Active Development |
+const mission: Mission = {
+    write: "with precision",
+    learn: "with understanding",
+    build: "with purpose",
+    improve: "continuously"
+};
+```
 
-> **Production does not necessarily mean finished.**
->
-> These projects are considered production projects because they are being developed with real-world business use, workflows, requirements and future deployment in mind.
+My goal is not simply to make code work.
 
----
+I want to understand **why it works, why it breaks, what happens underneath, and how it can be improved.**
 
-## 🛠️ Projects Undergoing Updates
+Change is part of development.
 
-Projects that have already been built but are currently being improved, redesigned, refactored or expanded.
-
-| Project                          | Current Focus                                              |
-| -------------------------------- | ---------------------------------------------------------- |
-| **EKPLUS Website**               | UI improvements, booking workflow and business integration |
-| **EKPLUS Management Tools**      | Reporting, payroll and automation improvements             |
-| **Insurance Tools**              | CRM improvements, quotation workflows and reporting        |
-| **Water Management Tools**       | Billing, delivery records and customer management          |
-| **Business Automation Projects** | Connecting daily business inputs to automated reports      |
+```bash
+BUILD → TEST → BREAK → DEBUG → UNDERSTAND → REFACTOR → DEPLOY
+```
 
 ---
 
-## ✅ Completed Projects
+# `VISION`
 
-Projects that have reached a usable milestone and have been completed as an initial version.
+```c
+#include <stdio.h>
 
-* **EKPLUS Website**
-* **Business Administration Tools**
-* **Basic Insurance Management Tools**
-* **Initial Water Delivery Management System**
-* **Initial Property Management Tools**
-* **Various Business Data & Reporting Solutions**
-* **Frontend Web Projects**
-* **HTML/CSS/JavaScript Projects**
-* **Python Automation Experiments**
+int main(void)
+{
+    printf("Build understanding.\n");
+    printf("Create products worth using.\n");
+    printf("Create a portfolio worth seeing.\n");
+    printf("Learn enough to lead others.\n");
 
-Some completed projects remain active because software is never really finished.
+    return 0;
+}
+```
 
-> **Build → Test → Deploy → Learn → Improve → Repeat**
+I am working toward becoming a developer who can move from:
+
+**Idea → Architecture → Code → Product → Deployment → Maintenance**
+
+while understanding the reasoning behind every stage.
 
 ---
 
-## 🧪 Learning & Experimental Projects
+# `LANGUAGES`
 
-Not everything I build starts as a product.
+```javascript
+const languages = [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "HTML",
+    "CSS",
+    "SQL",
+    "C"
+];
 
-Some projects exist simply to understand a technology, concept or development pattern.
+console.log(languages);
+```
 
-Current areas of experimentation include:
+### Current Stack
+
+```text
+Frontend
+├── HTML
+├── CSS
+├── JavaScript
+├── TypeScript
+├── React
+└── Tailwind CSS
+
+Backend
+├── Python
+├── Flask
+├── Node.js
+└── REST APIs
+
+Databases
+├── MongoDB
+└── SQL
+
+Tools
+├── Git
+├── GitHub
+├── Linux
+└── VS Code
+```
+
+### Exploring
+
+```rust
+fn currently_learning() -> &'static str {
+    "Rust"
+}
+```
+
+---
+
+# `HOW I THINK`
+
+```python
+def solve(problem):
+
+    understand(problem)
+
+    pieces = break_into_smaller_parts(problem)
+
+    solution = build(pieces)
+
+    while not solution.is_good_enough():
+
+        test(solution)
+
+        if solution.breaks():
+            understand_why(solution)
+            fix(solution)
+
+        refactor(solution)
+
+    return solution
+```
+
+> **A bug is not just something to remove.
+> It is something to understand.**
+
+---
+
+# 🚀 `PROJECTS.IN_PRODUCTION`
+
+Projects being actively developed toward real-world use.
+
+```typescript
+type ProjectStatus =
+    | "IN_PRODUCTION"
+    | "UNDER_UPDATE"
+    | "COMPLETED";
+
+const productionProjects: ProjectStatus = "IN_PRODUCTION";
+```
+
+### `EKPLUS Business Management System`
+
+```python
+project = {
+    "name": "EKPLUS Business Management System",
+    "purpose": [
+        "Sales",
+        "Employee Management",
+        "Commissions",
+        "Client Bills",
+        "Payroll",
+        "Reporting"
+    ],
+    "stack": ["Python", "Flask", "MongoDB", "SQL"],
+    "status": "IN_PRODUCTION"
+}
+```
+
+A business-management platform designed around real operational workflows.
+
+---
+
+### `EKOMARK Insurance CRM`
+
+```sql
+CREATE TABLE clients (
+    client_id INTEGER PRIMARY KEY,
+    name TEXT,
+    phone TEXT,
+    policy_status TEXT
+);
+```
+
+Planned capabilities include:
+
+* Client management
+* Motor insurance
+* Health insurance
+* Quotations
+* Renewals
+* Claims
+* Policy records
+* Reporting
+
+**Stack:** Python · Flask · MongoDB · SQL
+
+`STATUS: IN_PRODUCTION`
+
+---
+
+### `Water Delivery Management System`
+
+```javascript
+const delivery = {
+    customer: "Customer ID",
+    capacity: [5000, 10000],
+    billing: ["Daily", "Weekly", "Fortnightly", "Monthly"],
+    payment: ["Cash", "M-Pesa", "Invoice"],
+    status: "IN_PRODUCTION"
+};
+```
+
+Designed for water-delivery operations including:
+
+* Customer records
+* Tank capacity
+* Delivery tracking
+* Billing
+* Payments
+* Invoices
+* Customer history
+* Reporting
+
+---
+
+### `Property Management System`
+
+```python
+class Property:
+
+    def __init__(self, tenant, rent):
+        self.tenant = tenant
+        self.rent = rent
+        self.status = "ACTIVE"
+
+    def collect_rent(self):
+        return "RECORD PAYMENT"
+```
+
+Focused on:
+
+* Properties
+* Tenants
+* Rent
+* Arrears
+* Utilities
+* Maintenance
+* Payment records
+* Reporting
+
+`STATUS: IN_PRODUCTION`
+
+---
+
+### `Big Bites Meal Prep`
+
+```typescript
+type Order = {
+    customer: string;
+    meals: string[];
+    delivery: boolean;
+    paymentConfirmed: boolean;
+};
+
+function confirmOrder(order: Order) {
+    return order.paymentConfirmed
+        ? "ORDER CONFIRMED"
+        : "AWAITING PAYMENT";
+}
+```
+
+A food and meal-preparation concept focused on:
+
+**Meal Prep · Recurring Orders · Events · Delivery · Customer Management**
+
+`STATUS: IN_PRODUCTION`
+
+---
+
+### `Merchant Business Management Platform`
+
+```text
+FINANCE
+   │
+   ├── Sales
+   ├── Expenses
+   ├── Statements
+   ├── Tax Reports
+   │
+DOCUMENTS
+   │
+   ├── Procurement
+   ├── Receipts
+   ├── OCR
+   └── Records
+   │
+REPORTING
+   │
+   └── Business Intelligence
+```
+
+A broader platform concept for small-business financial and operational management.
+
+`STATUS: ACTIVE DEVELOPMENT`
+
+---
+
+# 🔧 `PROJECTS.UNDER_UPDATE`
+
+```bash
+$ git status
+
+modified:
+    EKPLUS Website
+    EKPLUS Management Tools
+    Insurance Tools
+    Water Management Tools
+    Business Automation Tools
+```
+
+These projects have working foundations but are being continuously improved through:
+
+```text
+UI improvements
+        ↓
+Feature expansion
+        ↓
+Database improvements
+        ↓
+Automation
+        ↓
+Testing
+        ↓
+Refactoring
+        ↓
+Deployment
+```
+
+---
+
+# ✅ `COMPLETED`
+
+```python
+completed = [
+    "EKPLUS Website",
+    "Business Administration Tools",
+    "Initial Insurance Management Tools",
+    "Initial Water Delivery System",
+    "Initial Property Management Tools",
+    "Frontend Web Projects",
+    "Python Automation Projects",
+    "HTML/CSS/JavaScript Projects"
+]
+```
+
+### But...
+
+```javascript
+const finished = false;
+
+if (project.isUseful()) {
+    project.continueImproving();
+}
+```
+
+A completed version does not necessarily mean the end of development.
+
+Some projects become foundations for the next version.
+
+---
+
+# 🧪 `LAB`
+
+Not every repository is intended to become a product.
+
+Some exist because I wanted to answer a question:
+
+```python
+questions = [
+    "How does this work?",
+    "Why did this break?",
+    "What happens if I change this?",
+    "Can I automate this?",
+    "Can I make it faster?",
+    "Can I make it simpler?"
+]
+
+for question in questions:
+    experiment(question)
+```
+
+### Current Areas of Exploration
 
 ```text
 Python
 ├── Automation
 ├── Data Structures
 ├── APIs
-├── Web Development
-└── Business Applications
+├── Web Applications
+└── Business Systems
 
 JavaScript / TypeScript
 ├── DOM
 ├── React
 ├── Next.js
 ├── Node.js
-└── APIs
+└── API Integration
 
 Backend
 ├── Flask
@@ -143,115 +430,166 @@ Backend
 ├── SQL
 └── REST APIs
 
-Development
+Engineering
 ├── Git
-├── GitHub
 ├── Linux
 ├── Testing
+├── Debugging
 └── Deployment
 ```
 
 ---
 
-## 📚 How I Learn
+# 📚 `LEARNING_PROTOCOL`
 
-My approach is simple:
+```rust
+fn learn(concept: Concept) -> Knowledge {
 
-1. **Understand the problem**
-2. **Break it into smaller problems**
-3. **Build a solution**
-4. **Understand every important part of the code**
-5. **Test it**
-6. **Find what breaks**
-7. **Understand why it broke**
-8. **Fix it**
-9. **Refactor**
-10. **Document what I learned**
+    study(concept);
 
-I am particularly interested in understanding the relationship between **code, systems and real-world problems**.
+    build_with(concept);
 
----
+    break_it();
 
-## 🧠 Developer Philosophy
+    debug();
 
-```typescript
-type Developer = {
-  curiosity: boolean;
-  persistence: boolean;
-  creativity: boolean;
-  willingnessToLearn: boolean;
-};
+    explain_it();
 
-const brian: Developer = {
-  curiosity: true,
-  persistence: true,
-  creativity: true,
-  willingnessToLearn: true
-};
+    rebuild();
+
+    return understanding;
+}
 ```
 
-### The objective
+My preferred learning cycle:
 
-> **Don't just copy the solution. Understand the solution.**
+```text
+LEARN
+  ↓
+BUILD
+  ↓
+BREAK
+  ↓
+DEBUG
+  ↓
+UNDERSTAND
+  ↓
+REBUILD
+  ↓
+DOCUMENT
+  ↓
+TEACH
+```
 
-A working application is useful.
+The objective is not to memorize syntax.
 
-An application whose developer understands **why it works** is much more valuable.
+**The objective is to understand the system behind the syntax.**
 
 ---
 
-## 👨‍💻 About Me
+# 🧠 `DEVELOPER_STATE`
 
 ```typescript
-type NoviceDev = {
-  name: "Brian Oduor Ogutu" | "b1gg13";
-  languages: string[];
-  school: "Hard Thoughts" | "The DOM";
-  currentMission: "Build. Learn. Improve.";
+type DeveloperState = {
+    curiosity: boolean;
+    persistence: boolean;
+    creativity: boolean;
+    discipline: boolean;
+    willingnessToBreakThings: boolean;
 };
 
-const developer: NoviceDev = {
-  name: "Brian Oduor Ogutu",
-  languages: [
-    "Python",
-    "JavaScript",
-    "TypeScript",
-    "HTML",
-    "CSS",
-    "C",
-    "SQL"
-  ],
-  school: "Hard Thoughts",
-  currentMission: "Build. Learn. Improve."
+const brian: DeveloperState = {
+    curiosity: true,
+    persistence: true,
+    creativity: true,
+    discipline: true,
+    willingnessToBreakThings: true
 };
 ```
 
 ---
 
-## 🔭 What's Next?
+# `ROADMAP`
 
-The roadmap continues toward:
+```text
+                 ┌──────────────┐
+                 │   LEARNING   │
+                 └──────┬───────┘
+                        ↓
+                 ┌──────────────┐
+                 │    BUILD     │
+                 └──────┬───────┘
+                        ↓
+                 ┌──────────────┐
+                 │    TEST      │
+                 └──────┬───────┘
+                        ↓
+                 ┌──────────────┐
+                 │   DEPLOY     │
+                 └──────┬───────┘
+                        ↓
+                 ┌──────────────┐
+                 │   IMPROVE    │
+                 └──────┬───────┘
+                        ↓
+                 ┌──────────────┐
+                 │    LEAD      │
+                 └──────────────┘
+```
 
-* Full-stack web development
+### Direction
+
+* Full-stack development
 * Business process automation
 * Data-driven applications
 * AI-assisted business systems
 * API development
 * Database architecture
-* Software engineering practices
+* Software engineering
 * Deployment & DevOps
 * Open-source contribution
 * Technical leadership
 
 ---
 
-### `b1gg13`
+# `README.version`
+
+```bash
+$ whoami
+
+b1gg13
+
+$ echo $MISSION
+
+"Build with precision. Learn with purpose."
+
+$ echo $STATUS
+
+"Still building."
+
+$ echo $NEXT
+
+"Build something better."
+```
+
+---
+
+## `b1gg13`
 
 ```text
 Hungry to learn.
 Curious enough to break things.
-Patient enough to understand them.
 Persistent enough to rebuild them.
 
-Build → Break → Understand → Improve.
+BUILD.
+BREAK.
+UNDERSTAND.
+IMPROVE.
+REPEAT.
 ```
+
+---
+
+## 📊 GitHub
+
+
